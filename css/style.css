@@ -1,0 +1,41 @@
+.nav{
+    background-color: #FF6801;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.nav-text{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-cont{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    height: 35px;
+}
+
+.nav-icons{
+    fill: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.icon-dim{
+    width: 18px;
+    height: 18px;
+}
