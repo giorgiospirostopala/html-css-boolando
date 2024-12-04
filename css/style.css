@@ -216,5 +216,10 @@ footer{
     margin-right: 10px;
 }
 
+section a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
 
 
