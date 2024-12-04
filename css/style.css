@@ -1,4 +1,6 @@
-.nav{
+/* NAV  */
+
+nav{
     background-color: #FF6801;
     height: 80px;
     display: flex;
@@ -21,10 +23,15 @@
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
 
 .logo{
     height: 35px;
+    /* quale è il modo migliore per centrarlo? */
+    position: absolute;
+    left: 45%;
+    right: 55%;
 }
 
 .nav-icons{
@@ -38,4 +45,67 @@
 .icon-dim{
     width: 18px;
     height: 18px;
+}
+
+/* MAIN  */
+
+main{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sect-1{
+    margin-top: 150px;
+    height: 800px;
+    object-fit: contain;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.sect-2{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    height: 800px;
+    object-fit: contain;
+    /* background: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.prod{
+    /* background: green; */
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pic{
+    /* background-color: yellow; */
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; 
+     MOLTO UTILE VISIVAMENTE */
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.red-price{
+    color: red;
+}
+
+.lined-price{
+    text-decoration: line-through;
 }
