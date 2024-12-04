@@ -56,8 +56,7 @@ main{
 
 .sect-1{
     margin-top: 150px;
-    height: 800px;
-    object-fit: contain;
+    height: 71vh;
     /* background: red; */
     display: flex;
     align-items: center;
@@ -68,8 +67,7 @@ main{
 .sect-2{
     margin-top: 70px;
     margin-bottom: 70px;
-    height: 800px;
-    object-fit: contain;
+    height: 71vh;
     /* background: red; */
     display: flex;
     align-items: center;
@@ -92,7 +90,33 @@ main{
     height: 100%;
     /* overflow: hidden; 
      MOLTO UTILE VISIVAMENTE */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
 
+#pic1{
+    background-image: url(/images/img/1.webp);
+}
+
+#pic2{
+    background-image: url(/images/img/2.webp);
+}
+
+#pic3{
+    background-image: url(/images/img/3.webp);
+}
+
+#pic4{
+    background-image: url(/images/img/4.webp);
+}
+
+#pic5{
+    background-image: url(/images/img/5.webp);
+}
+
+#pic6{
+    background-image: url(/images/img/6.webp);
 }
 
 .pic img{
@@ -100,6 +124,39 @@ main{
     height: 100%;
     object-fit: cover;
 
+}
+
+.pic-tags-cont{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.pic-tags-cont h4{
+    color: white;
+    padding: 5px;
+}
+
+.pic-heart-cont{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+}
+
+.heart{
+    
+}
+
+.red-tag{
+    background-color: #FF0000;
+}
+
+.green-tag{
+    background-color: green;
 }
 
 .red-price{
