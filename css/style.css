@@ -216,10 +216,19 @@ footer{
     margin-right: 10px;
 }
 
-section a{
+a{
     text-decoration: none;
     color: inherit;
     display: block;
+    width: 32%;
+    height: 100%;
+}
+
+.detail{
+    width: 50vh;
+    height: 80vh;
+    margin: 10% 0;
+    
 }
 
 
