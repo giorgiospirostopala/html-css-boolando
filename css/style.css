@@ -99,24 +99,48 @@ main{
     background-image: url(/images/img/1.webp);
 }
 
+#pic1:hover{
+    background-image: url(/images/img/1b.webp);
+}
+
 #pic2{
     background-image: url(/images/img/2.webp);
+}
+
+#pic2:hover{
+    background-image: url(/images/img/2b.webp);
 }
 
 #pic3{
     background-image: url(/images/img/3.webp);
 }
 
+#pic3:hover{
+    background-image: url(/images/img/3b.webp);
+}
+
 #pic4{
     background-image: url(/images/img/4.webp);
+}
+
+#pic4:hover{
+    background-image: url(/images/img/4b.webp);
 }
 
 #pic5{
     background-image: url(/images/img/5.webp);
 }
 
+#pic5:hover{
+    background-image: url(/images/img/5b.webp);
+}
+
 #pic6{
     background-image: url(/images/img/6.webp);
+}
+
+#pic6:hover{
+    background-image: url(/images/img/6b.webp);
 }
 
 .pic img{
@@ -147,8 +171,12 @@ main{
     color: black;
 }
 
-.heart{
-    
+.pic-heart-cont:hover{
+    color: red;
+}
+
+.heart:hover{
+    cursor: pointer;
 }
 
 .red-tag{
