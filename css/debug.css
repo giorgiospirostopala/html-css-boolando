@@ -1,7 +1,7 @@
 Evidenzia tutti gli elementi invisibili
-* {
+/* * {
     outline: 1px solid rgba(0, 0, 0, 0.2); /* Linea sottile per tutti gli elementi */
-}
+} */
 
 div, header, body, footer, section, article, aside, nav {
     outline: 2px solid red; /* Evidenzia in rosso i principali contenitori */
